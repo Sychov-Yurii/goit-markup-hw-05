@@ -724,8 +724,9 @@ margin-bottom: 120px;
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    border-color: ;
-    fill: ;
+    background-color: var(--OCEAN);
+    border-color: var(--OCEAN);
+    fill: var(--WHITE);
 }
 .modal-close-btn-icon {
     
