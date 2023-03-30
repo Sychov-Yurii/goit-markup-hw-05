@@ -136,16 +136,23 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
-    
     display: block;
     position: relative;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover {
     color:#404bbf;
+    display: block;
+    width: 100%;
+    opacity: 1;
 }
 .header-link:focus {
     color:#404bbf;
+    display: block;
+    width: 100%;
+    opacity: 1;
 }
 
 .header-mail {
@@ -156,13 +163,21 @@ img {
     letter-spacing: 0.02em;
     color:var(--SLATE);
     display: flex;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail:hover {
     color:#404bbf;
+    display: ;
+    width: 100%;
+    opacity: 1;
 }
 .header-mail:focus {
     color:#404bbf;
+    display: ;
+    width: 100%;
+    opacity: 1;
 }
 
 .header-link::after {
@@ -245,13 +260,16 @@ img {
     text-align: center;
     width: 169px;
     height: 56px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-btn:hover {
     background-color: var(--OCEAN);
+    opacity: 1;
 }
 .header-btn:focus {
     background-color: var(--OCEAN);
+    opacity: 1;
 }
 
 .portfolio-btn {
@@ -272,18 +290,20 @@ img {
 
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn:hover {
     color:var(--WHITE);
     background-color:var(--OCEAN);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    opacity: 1;
 }
 .portfolio-btn:focus {
     background-color:var(--OCEAN);
     color: var(--WHITE);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    opacity: 1;
 }
 
 /*2 Section*/
@@ -291,8 +311,8 @@ img {
 .section-position {
     margin-top: 120px;
     margin-top: 120px;
-    
 }
+
 .strategy-position::before {
     width: calc((100% - 3 * 4px) / 4);
 }
@@ -310,16 +330,13 @@ img {
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
     margin-bottom: 8px;
-    
-
 }
 .strategy-subtitle {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--SLATE);  
-    font-weight: 400;
-    
+    font-weight: 400;    
 }
 
 .strategy-border {
@@ -454,13 +471,16 @@ margin-bottom: 120px;
 
 .team-soc-icon {
     fill: var(--CLOUD);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover {
     background-color:var(--OCEAN);
+    opacity: 1;
 } 
 .team-soc-link:focus {
     background-color: var(--OCEAN);
+    opacity: 1;
 }
 
 
@@ -500,6 +520,7 @@ margin-bottom: 120px;
 .portfolio-about > .portfolio-title {
     flex-basis: calc(100%/3-(24px));
     text-align: left;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .portfolio-image {
@@ -512,9 +533,11 @@ margin-bottom: 120px;
 
 .portfolio-title:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    opacity: 1;
 }
 .portfolio-title:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    opacity: 1;
 }
 
 .portfolio-border {
@@ -590,6 +613,7 @@ margin-bottom: 120px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;   
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -600,16 +624,19 @@ margin-bottom: 120px;
     margin-bottom: 16px;
     margin-left: 32px;
     margin-right: 32px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list:hover,
 .customers-list:focus {
     border-color:var(--OCEAN);  
+    opacity: 1;
 } 
 
 .customers-icon:hover,
 .customers-icon:focus {
     fill: var(--OCEAN);
+    opacity: 1;
 } 
 
 /*footer*/
@@ -681,13 +708,16 @@ margin-bottom: 120px;
 
 .footer-team-soc-icon {
     fill: var(--CLOUD);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-team-soc-link:hover {
     background-color:var(--GREEN);
+    opacity: 1;
 } 
 .footer-team-soc-link:focus {
     background-color: var(--GREEN);
+    opacity: 1;
 }
 
 /* =====================MODAL WINDOW ============================== */
@@ -736,6 +766,7 @@ margin-bottom: 120px;
     padding: 0;
     transition: border-color var(--GREEN);
     cursor: pointer;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -743,6 +774,7 @@ margin-bottom: 120px;
     background-color: var(--OCEAN);
     border-color: var(--OCEAN);
     fill: var(--WHITE);
+    opacity: 1;
 }
 .modal-close-btn-icon {
     
